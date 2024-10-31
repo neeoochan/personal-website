@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+#profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #000;
+    margin-bottom: 20px;
+}
+.social-icons .icon {
+    color: #000;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.social-icons .icon:hover {
+    color: #333;
+}
+.buttons .btn {
+    display: block;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+    width: 220px;
+    border: 1px solid #000;
+}
+.buttons .btn:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,76 @@
+/* General Reset and Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+/* Fixed Header at Top */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #6b6060;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+/* Main Content */
+main {
+    width: 300px;
+    margin-top: 100px; /* Space for fixed header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Timer Section Styling */
+#timer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Timer Box Styling */
+#time-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 125px;
+}
+
+#time {
+    font-size: 5em; /* Adjust font size for the timer */
+}
+
+/* Timer Controls Styling */
+#timer-controls {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+}
+
+#timer-controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
